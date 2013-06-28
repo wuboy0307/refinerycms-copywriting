@@ -1,0 +1,24 @@
+zh-TW:
+  refinery:
+    plugins:
+      refinerycms_copywriting:
+        title: 複製寫入
+    copywriting:
+      admin:
+        phrases:
+          locale_filters:
+            change_language: 切換語言
+          scope_filters:
+            filter_by_scope: 以scope過濾
+            filtered_by: "以'%{filter_scope}'過濾"
+            clear_scope_filter: 清除
+          records:
+            no_items_yet: 尚未有可供複製寫入的文字
+          phrase:
+            edit: 編輯
+            delete: 移除
+    pages:
+      admin:
+        tabs:
+          copywriting:
+            no_copywriting_yet: 此頁面目前沒有使用複製文字
