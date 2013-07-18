@@ -37,6 +37,14 @@ module Refinery
         end
       end
 
+      # set the manifests and assets to be precompiled
+      initializer "refinery_copywriting.assets.precompile" do |app|
+        app.config.assets.precompile += [
+            "refinery/refinerycms-copywriting",
+            "refinery/refinerycms-copywriting-tab"
+        ]
+      end
+
       config.after_initialize do
         Refinery.register_engine(Refinery::Copywriting)
       end
