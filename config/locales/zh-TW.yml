@@ -2,7 +2,7 @@ zh-TW:
   refinery:
     plugins:
       refinerycms_copywriting:
-        title: 複製寫入
+        title: 編寫文字
     copywriting:
       admin:
         phrases:
@@ -13,7 +13,7 @@ zh-TW:
             filtered_by: "以'%{filter_scope}'過濾"
             clear_scope_filter: 清除
           records:
-            no_items_yet: 尚未有可供複製寫入的文字
+            no_items_yet: 尚未有可供編寫的文字
           phrase:
             edit: 編輯
             delete: 移除
@@ -21,4 +21,4 @@ zh-TW:
       admin:
         tabs:
           copywriting:
-            no_copywriting_yet: 此頁面目前沒有使用複製文字
+            no_copywriting_yet: 此頁面目前沒有使用編寫文字
